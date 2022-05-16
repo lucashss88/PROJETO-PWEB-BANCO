@@ -13,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from './layout/layout.module';
 import { ContaModule } from './conta/conta.module';
 import { HttpClientModule } from '@angular/common/http';
+import { FirestoreModule } from '@angular/fire/firestore/public_api';
 
 @NgModule({
   declarations: [AppComponent],
@@ -29,6 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatIconModule,
     ContaModule,
     HttpClientModule,
+    FirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
